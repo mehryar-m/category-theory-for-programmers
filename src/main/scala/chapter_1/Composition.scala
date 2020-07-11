@@ -17,9 +17,6 @@ object Composition {
   def composition(function1: (Int) => Int, function2: (Int) => Int): (Int) => Int = {
     (input: Int) => function1(function2(input))
   }
-//  def composition(function1: (Int) => Int, function2: (Int) => Int): (Int) => Int = {
-//    (input: Int) => function1(function2(input))
-//  }
 
 
   def solutionForProblem4(): String = {
